@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bulletin Board</string>
+    <string name="welcome">Welcome</string>
+    <string name="enter">Enter</string>
+    <string name="birthYear">Birth year:</string>
+    <string name="InvalidLogin">Invalid login!</string>
+    <string name="loggedIn">Logged in!</string>
+    <string name="preference_file_key" translatable="false">myFile</string>
+</resources>

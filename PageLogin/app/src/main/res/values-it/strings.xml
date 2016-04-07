@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login</string>
+    <string name="welcome">Benvenuto</string>
+    <string name="loggedIn">Login effettuato!</string>
+    <string name="enter">Invia</string>
+    <string name="InvalidLogin">login non valido!</string>
+    <string name="birthYear">Anno di nascita:</string>
+</resources>
