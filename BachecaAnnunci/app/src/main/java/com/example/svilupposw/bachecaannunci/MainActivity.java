@@ -33,12 +33,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Firebase ref = MyApplication.getMyFirebaseRef();
-                ref.authWithPassword("bobtony@firebase.com", "correcthorsebatterystaple", new Firebase.AuthResultHandler()
+                ref.authWithPassword(mail.getText().toString(), pwd.getText().toString(), new Firebase.AuthResultHandler()
                 {
                     @Override
                     public void onAuthenticated(AuthData authData) {
                         //System.out.println("User ID: " + authData.getUid() + ", Provider: " + authData.getProvider());
                         Intent intent = new Intent(getApplicationContext(), UserActivity.class);
+
+                        intent.putExtra("mail", ((String) authData.getProviderData().get("email")));
 
                         startActivity(intent);
 
