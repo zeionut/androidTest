@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Bacheca annunci</string>
+    <string name="welcome">Benvenuto</string>
+    <string name="loggedIn">Login effettuato!</string>
+    <string name="enter">Invia</string>
+    <string name="InvalidLogin">login non valido!</string>
+    <string name="birthYear">Anno di nascita:</string>
+    <string name="register">Registrati</string>
+    <string name="sign_up">Registrati</string>
+
+</resources>
